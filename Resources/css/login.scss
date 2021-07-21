@@ -1,0 +1,229 @@
+
+
+  /* Above Header */
+  .header-container {
+    .container-fluid{
+        height: 2.2rem;
+        padding-bottom: 1.2rem;
+        background-color: #1D69C4;
+    }
+  p {
+      color: white;
+      float: right;
+      font-size: 0.7rem;
+      font-weight: 800;
+      padding-right: 1.3rem;
+      line-height: 2.1rem;
+  }
+   }
+
+   .top-nav {
+    .container-fluid{
+    overflow: hidden;
+    background-color:white;
+    border: 1px solid rgb(143, 137, 137);
+    height: 80px;
+    width:100%;
+    border-bottom: 1px solid rgb(208, 209, 204) ;
+    box-shadow:0 1px 4px rgba(19, 18, 18, 0.3), 0 0 40px rgba(136, 130, 130, 0.1) inset; 
+   
+    
+    img{
+        padding-top: 0.8rem;
+        padding-left: 1.5rem;
+        width:8rem;
+        padding-bottom: 0.5rem;
+     }
+
+     p{
+         float:right;
+         padding-top: 1.4rem;
+         padding-right: 38rem;
+         font-size: 1.4rem;
+         font-weight: 800;
+         color:#3598dc;
+     }
+     
+  }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family:sans-serif;
+  }
+
+  .forgot-container {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    .forgot-border-class {
+       box-shadow:0 0 14px 9px #dedede;
+        height: 35rem;
+        border-radius: 30px;
+        width: 63%;
+        background-color: #1D69C4;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, #fff 7%);
+        .forgot-password-heading{
+            color: #fff;
+            margin-top: 0.7rem;
+            text-align: center;
+            font-size: 25px;
+            
+        }
+form{
+    display: flex;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 3rem;
+        }
+    }
+}
+.input-password1, .input-password2{
+input[type="text"] {
+    display: inline-block;
+    height: 41px;
+    border: none;
+    border-radius: none;
+    font-size: 17px;
+    background: #F2F2F2;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 19rem;
+    width: 50%;
+    &:hover, &:focus {
+        color: black;
+        background: #fafafa;
+        border-color: black;
+        outline: none;
+      }
+}
+
+}
+.input-userid{
+  padding-left: 11.5rem;
+  label{
+    color: black;
+    font-size: 20px;  
+
+  }
+
+  input[type="text"]{
+    display: inline-block;
+    height: 41px;
+    border: none;
+    border-radius: none;
+    font-size: 17px;
+    background: #F2F2F2;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    width: 70%;
+    &:hover, &:focus {
+      color: black;
+      background: #fafafa;
+      border-color: black;
+      outline: none;
+    }
+}
+
+}
+
+.input-password1, .input-password2{
+  .span1{
+    margin-left: 4rem;
+    color: black;
+    font-size: 20px;
+  }
+  .span2{
+    margin-left: 2rem;
+    color: black;
+    font-size: 20px;
+  }
+
+}
+
+
+.buttons {
+  padding-top: 3rem;
+  display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+
+
+.change, .back, .clear{
+
+  color:white;
+  background: #1D69C4;
+  border: none;
+  height: 42px;
+  border-radius: 7px;
+  font-size: 19px;
+  margin-left: 6rem;
+ }
+
+.change{
+  width: 20%;
+}
+.back, .clear{
+  margin-left: -2.2rem;
+  width:20%;
+}
+
+ 
+ 
+}
+  
+  .footer {
+    height: 5.2rem;
+    width: auto;
+    border: 1px solid rgb(180, 176, 176);
+    box-shadow: rgb(209, 204, 204);
+    margin-top: 3rem;
+    position: relative;
+    padding: 1rem 1rem;
+    background-color: #beb8b8;
+    padding-top: 2rem;
+    .footer-left {
+        color:black;
+        font-size: 1rem;
+    }
+    .footer-right {
+        float: right;
+        color:black;
+         margin-top: -1rem;
+        font-size: 1rem;
+      
+    }
+  }  
+
+    /* Scrollbar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e6f7ff;
+  margin-left: 1.8rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #005580;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
